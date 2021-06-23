@@ -1,0 +1,141 @@
+/*---------------Global------------------------*/
+:root {
+    --blue: #007bff;
+    --white: #fff;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:  0;
+}
+
+body {
+    background-color: var(--blue);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    padding-top: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*---------------Header-----------------------*/
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 38px;
+    list-style: none;
+}
+
+li {
+    margin-left: 2vw;
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    margin-left: 10vw;
+    flex-wrap: wrap;
+}
+
+.headerLogo {
+    width: 150px;
+}
+
+.liLink {
+    color: var(--white);
+}
+
+.center {
+    margin-left: 35px;
+}
+
+.headerIcon {
+    width: 28px;
+    margin-top: -5px;
+    margin-right: -2vw;
+}
+
+
+.endHeader {
+    margin-left: 35vw;
+    display: block;
+    margin-top: 25px;
+    line-height: 13px;
+}
+
+/*---------------Main-----------------------*/
+
+.main {
+    margin-top: 24vh;
+}
+
+
+.inputContainer {
+    border-bottom: 1px solid white;
+    margin: 0 40vw;
+    margin-top: 45px;
+}
+
+.inputIcon {
+    width: 30px;
+    margin-bottom: -25px;
+    margin-right: 23vw;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 15px 47.3vw;
+    padding: 3px;
+    transform: translateX(143px);
+    background-color: var(--white);
+    border-radius: 2px; 
+    box-shadow: 11px 11px 17px -5px rgba(1, 104, 214, 0.692);
+    cursor: pointer;
+}
+
+.loginLink {
+    color: var(--blue);
+}
+
+.loginIcon {
+    width: 25px;
+}
+
+/*---------------Inputs-----------------------*/
+
+input {
+    width: 325px;
+    background-color: var(--blue);
+    border: none;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    color: var(--white);
+}
+
+input::-moz-placeholder {
+    color: var(--white)
+}
+
+input::-ms-input-placeholder {
+    color: var(--white)
+}
+
+/*---------------Footer-----------------------*/
+
+.logoIcon {
+    margin-left: 40vw;
+    width: 250px;
+}
